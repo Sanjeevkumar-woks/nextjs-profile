@@ -32,7 +32,6 @@ const Hero = () => {
           alt={""}
         />
       </div>
-
       <div className="py-16 lg:py-48 flex flex-col-reverse lg:flex-row justify-around gap-10 lg:gap-0">
         <div className="flex flex-col gap-4 md:gap-6 text-left lg:w-1/2 2xl:w-1/3 mx-4 md:mx-6 xl:mx-0">
           <div className="flex items-center gap-1">
@@ -82,28 +81,6 @@ const Hero = () => {
             About Me
             <IoIosArrowForward className="group-hover:translate-x-1 transition-transform" />
           </ScrollLink>
-        </div>
-        <div className="socials">
-          <ul className="social-icons">
-            <li>
-              <a
-                className="linkedin"
-                aria-label="LinkedIn"
-                href="https://www.linkedin.com/in/sanjeevkumar-managutti-34187a207/"
-                rel="noreferrer"
-                target="_blank"
-              ></a>
-            </li>
-            <li>
-              <a
-                className="github"
-                aria-label="GitHub"
-                href="https://github.com/Sanjeevkumar-woks"
-                rel="noreferrer"
-                target="_blank"
-              ></a>
-            </li>
-          </ul>
         </div>
 
         <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-0">
@@ -155,7 +132,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
+      {/* 
       <svg
         className="absolute hidden md:block right-0 bottom-0 translate-x-6 translate-y-4 opacity-25 lg:opacity-60"
         width="186"
@@ -180,7 +157,7 @@ const Hero = () => {
             <stop offset="1" stop-color="#36EC74"></stop>
           </linearGradient>
         </defs>
-      </svg>
+      </svg> */}
     </section>
   );
 };
