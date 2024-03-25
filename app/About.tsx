@@ -26,7 +26,7 @@ const About = () => {
             <p className="text-violet-800 w-fit rounded py-1 px-2 text-sm dark:text-violet-600 bg-violet-50 dark:bg-violet-900/10">
               FullStack Developer
             </p>
-            <p className="text-sm md:text-base my-2 text-gray-600 dark:text-gray-300">
+            <p className="text-sm  my-2 md:text-base  text-gray-600 dark:text-gray-500">
               I am a Full-Stack developer based in Bangalore, India. My journey
               in web development began during my first year of college. I&apos;m
               passionate about creating beautiful, functional, and user-friendly

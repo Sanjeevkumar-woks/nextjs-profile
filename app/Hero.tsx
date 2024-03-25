@@ -65,7 +65,7 @@ const Hero = () => {
             />
           </div>
 
-          <p className="text-sm md:text-base text-gray-600 dark:text-gray-300">
+          <p className="text-sm md:text-base text-gray-600 dark:text-gray-500">
             I focus on developing user-friendly web applications that meet the
             client&apos;s requirements, with attention to detail, scalability,
             and performance.

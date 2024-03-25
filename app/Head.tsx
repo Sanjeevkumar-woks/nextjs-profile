@@ -31,14 +31,14 @@ export default function Head() {
       <meta name="twitter:site" content="https://jigarsable.vercel.app" />
       <meta
         name="application-name"
-        content="Portfolio | Jigar Sable - Full Stack Developer"
+        content="Portfolio | Sanjeevkumar- Full Stack Developer"
       />
       <meta
         name="apple-mobile-web-app-title"
-        content="Portfolio | Jigar Sable - Full Stack Developer"
+        content="Portfolio | Sanjeevkumar- Full Stack Developer"
       />
       <link rel="icon" href="/favicon.ico" />
-      <title>Portfolio | Jigar Sable - Full Stack Developer</title>
+      <title>Portfolio | Sanjeevkumar- Full Stack Developer</title>
     </>
   );
 }

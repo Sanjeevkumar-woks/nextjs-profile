@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaVideo } from "react-icons/fa";
@@ -15,7 +14,7 @@ const cardVariants = {
   },
 };
 
-const Project = ({ name, image, category, techstack, links }: any) => {
+const ProjectCard = ({ name, image, techstack, links }: any) => {
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -34,10 +33,10 @@ const Project = ({ name, image, category, techstack, links }: any) => {
           alt={name}
           width={1000}
           height={1000}
-          className="max-w-full h-48 max-h-full object-cover object-top rounded-lg"
+          className="max-w-full h-48 max-h-full object-fit object-top rounded-lg"
           src={image}
         />
-        {(links?.visit.trim() || links?.code.trim()) && (
+        {(links.visit.trim() || links.code.trim()) && (
           <div className="absolute top-0 scale-x-0 group-hover:scale-100 transition-transform origin-left duration-200 ease-linear bg-gray-800 bg-opacity-60 w-full h-full rounded-lg flex items-center gap-4 justify-center">
             {links.visit.trim() && (
               <Link
@@ -61,9 +60,9 @@ const Project = ({ name, image, category, techstack, links }: any) => {
         )}
       </div>
 
-      <div className="my-2 flex flex-col gap-3">
-        <h3 className="text-xl font-medium">{name}</h3>
-        <p className="text-sm text-gray-400">
+      <div className="my-2 flex flex-col gap-1">
+        <h3 className="text-xl  text-gray-600 dark:text-gray-900">{name}</h3>
+        <p className="text-sm text-gray-600">
           {" "}
           <span className="font-medium">Tech Stack:</span> {techstack}
         </p>
@@ -72,4 +71,4 @@ const Project = ({ name, image, category, techstack, links }: any) => {
   );
 };
 
-export default Project;
+export default ProjectCard;

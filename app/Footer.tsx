@@ -24,7 +24,7 @@ export default function Footer() {
           <Link
             href={"https://nextjs.org"}
             target="_blank"
-            className="dark:bg-grey-800 text-gray-500 dark:text-gray-300"
+            className="dark:bg-grey-800 text-gray-500 dark:text-gray-500"
           >
             <Image
               alt="Next.js"
@@ -40,7 +40,7 @@ export default function Footer() {
           <Link
             href={"https://vercel.com"}
             target="_blank"
-            className="dark:bg-grey-800 text-gray-500 dark:text-gray-300"
+            className="dark:bg-grey-800 text-gray-500 dark:text-gray-500"
           >
             <Image
               alt="Tailwind CSS"
