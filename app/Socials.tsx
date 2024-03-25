@@ -8,7 +8,7 @@ const Socials = () => {
   return (
     <section
       id="socials"
-      className="fixed xl:bottom-4 xl:left-4 2xl:bottom-10 2xl:left-10 hidden lg:flex flex-col gap-3 z-20"
+      className="fixed xl:bottom-4 xl:left-4 2xl:bottom-10 2xl:left-10 hidden lg:flex sm:flex-row gap-3 z-20"
     >
       <div className="socials">
         <ul className="flex flex-col gap-2">

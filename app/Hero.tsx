@@ -22,15 +22,16 @@ const Hero = () => {
       } relative min-h-screen w-full mx-auto overflow-hidden`}
     >
       <div className="absolute -z-10 min-h-screen h-full w-full">
-        <Image
-          src="/herobgc.jpg"
-          layout="fill"
-          objectFit="cover"
-          loading="lazy"
-          className="object-bottom"
-          quality={100}
-          alt={""}
-        />
+        {theme === "light" && (
+          <Image
+            src="/herobgc.jpg"
+            layout="fill"
+            loading="lazy"
+            className="object-bottom"
+            quality={100}
+            alt={""}
+          />
+        )}
       </div>
       <div className="py-16 lg:py-48 flex flex-col-reverse lg:flex-row justify-around gap-10 lg:gap-0">
         <div className="flex flex-col gap-4 md:gap-6 text-left lg:w-1/2 2xl:w-1/3 mx-4 md:mx-6 xl:mx-0">
@@ -132,8 +133,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* 
-      <svg
+      {/* <svg
         className="absolute hidden md:block right-0 bottom-0 translate-x-6 translate-y-4 opacity-25 lg:opacity-60"
         width="186"
         height="186"

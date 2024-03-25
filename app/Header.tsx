@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <header
       className={`backdrop-filter backdrop-blur-lg ${
-        scroll ? "border-b bg-white bg-opacity-40" : "border-b-0"
+        scroll ? "border-b bg-opacity-40" : "border-b-0"
       } dark:bg-grey-900 dark:bg-opacity-40 border-gray-200 dark:border-b-0 z-30 min-w-full flex flex-col fixed`}
     >
       <nav className="lg:w-11/12 2xl:w-4/5 w-full md:px-6 2xl:px-0 mx-auto py-4 hidden sm:flex items-center justify-between">

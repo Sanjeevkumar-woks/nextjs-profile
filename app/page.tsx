@@ -5,6 +5,10 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Socials from "./Socials";
 
+import Experiences from "./components/experiences/Experiences";
+import Project from "./components/projects/ProjectCard";
+import Skills from "./components/skills/Skills";
+
 export default function Home() {
   return (
     <>
@@ -12,6 +16,9 @@ export default function Home() {
       <Hero />
       <Socials />
       <About />
+      <Skills />
+      {/* <Project /> */}
+      <Experiences />
       <Contact />
       <Footer />
     </>

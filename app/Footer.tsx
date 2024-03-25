@@ -11,9 +11,9 @@ export default function Footer() {
   const { theme } = useTheme();
 
   return (
-    <footer className="w-full bg-white dark:bg-grey-800 text-gray-500 dark:text-gray-300">
+    <footer className="w-full dark:bg-grey-800 text-gray-500 dark:text-gray-300 border-t-2">
       <div className="xl:max-w-6xl mx-auto md:mx-6 lg:mx-10 xl:mx-auto py-4 lg:py-6 flex flex-col-reverse md:flex-row gap-2 md:gap-0 justify-between items-center">
-        <p className="text-sm mt-2 md:mt-0">
+        <p className="text-sm mt-2 md:mt-0  text-gray-500 ">
           Made with
           <span className="animate-pulse"> ❤️ </span>
           by
@@ -21,7 +21,11 @@ export default function Footer() {
         </p>
 
         <div className="hidden xl:flex items-center gap-2">
-          <Link href={"https://nextjs.org"} target="_blank">
+          <Link
+            href={"https://nextjs.org"}
+            target="_blank"
+            className="dark:bg-grey-800 text-gray-500 dark:text-gray-300"
+          >
             <Image
               alt="Next.js"
               width={45}
@@ -32,8 +36,12 @@ export default function Footer() {
               } opacity-80 hover:opacity-100 transition-opacity`}
             />
           </Link>
-          <p className="text-sm">X</p>
-          <Link href={"https://vercel.com"} target="_blank">
+          <p className="text-sm text-violet-600">X</p>
+          <Link
+            href={"https://vercel.com"}
+            target="_blank"
+            className="dark:bg-grey-800 text-gray-500 dark:text-gray-300"
+          >
             <Image
               alt="Tailwind CSS"
               width={52}

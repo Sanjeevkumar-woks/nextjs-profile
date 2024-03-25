@@ -4,20 +4,20 @@ export default function Head() {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"
-        content="I'm Jigar Sable, full-stack developer based in Pune, India. My journey in web development began during my first year of college."
+        content="I'm Sanjeev, full-stack developer based in Pune, India. My journey in web development began during my first year of college."
       />
       <meta
         name="keywords"
-        content="jigar sable, portfolio, jigar, full stack dev, nextjs portfolio, portfolio design, portfolio website, personal portfolio"
+        content="Sanjeev, portfolio, Sanjeev, full stack dev, nextjs portfolio, portfolio design, portfolio website, personal portfolio"
       />
-      <meta property="og:site_name" content="Jigar Sable's Portfolio" />
+      <meta property="og:site_name" content="Sanjeev's Portfolio" />
       <meta
         property="og:title"
-        content="Portfolio | Jigar Sable - Full Stack Developer"
+        content="Portfolio | Sanjeev - Full Stack Developer"
       />
       <meta
         property="og:description"
-        content="I'm Jigar Sable, full-stack developer based in Pune, India. My journey in web development began during my first year of college."
+        content="I'm  Sanjeev, full-stack developer based in Pune, India. My journey in web development began during my first year of college."
       />
       <meta property="og:url" content="https://jigarsable.vercel.app" />
       <meta

@@ -25,7 +25,7 @@ const Contact = () => {
   });
   //console.log(form.values);
   return (
-    <section>
+    <section id="contact">
       <h2 className="text-center text-4xl">Contact Me</h2>
 
       <div className="w-full lg:w-5/6 2xl:w-3/4 mt-10 md:mt-16 mx-auto flex justify-between rounded-xl">
@@ -46,7 +46,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-col gap-4  p-2">
             <input
-              className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4"
+              className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4 text-black"
               type="text"
               name="name"
               placeholder="Enter Name"
@@ -54,7 +54,7 @@ const Contact = () => {
               onChange={form.handleChange}
             />
             <input
-              className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4"
+              className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4 text-black"
               type="email"
               name="email"
               placeholder="Enter Email"
@@ -62,7 +62,7 @@ const Contact = () => {
               onChange={form.handleChange}
             />
             <input
-              className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4"
+              className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4 text-black"
               type="text"
               name="message"
               placeholder="Enter Message"
