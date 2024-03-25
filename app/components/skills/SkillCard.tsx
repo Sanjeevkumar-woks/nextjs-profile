@@ -31,15 +31,7 @@ const Skill = ({ name, image }: any) => {
           alt="skill"
           width={100}
           height={100}
-          className={`h-12 w-12 md:h-14 md:w-14 object-contain ${
-            theme === "dark" &&
-            (name === "GitHub" ||
-            name === "Vercel" ||
-            name === "NextJS" ||
-            name === "ExpressJS"
-              ? "invert"
-              : "invert-0")
-          }`}
+          className={`h-12 w-12 md:h-14 md:w-14 object-contain inset-0`}
           src={image}
         />
       </div>
