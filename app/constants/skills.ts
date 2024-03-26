@@ -1,4 +1,4 @@
-"use client";
+
 export const skillData = [
     { name: "JavaScript", image: "/skills/js.png", category: "Frontend" },
     { name: "TypeScript", image: "/skills/ts.png", category: "Frontend" },

@@ -1,4 +1,4 @@
-"use client";
+
 export const projects = [
     {
         name: "Flipkart",
