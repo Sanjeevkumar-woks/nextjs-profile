@@ -63,7 +63,6 @@ const ProjectCard = ({ name, image, techstack, links }: any) => {
       <div className="my-2 flex flex-col gap-1">
         <h3 className="text-xl  text-gray-600 dark:text-gray-900">{name}</h3>
         <p className="text-sm text-gray-600">
-          {" "}
           <span className="font-medium">Tech Stack:</span> {techstack}
         </p>
       </div>

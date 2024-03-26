@@ -1,24 +1,6 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import { FastAverageColor } from "fast-average-color";
-
-import { useTheme } from "next-themes";
 
 const Skill = ({ name, image }: any) => {
-  const { theme } = useTheme();
-  const [bgColor, setBgColor] = useState("");
-  useEffect(() => {
-    new FastAverageColor()
-      .getColorAsync(image)
-      .then((color) => {
-        const rgba = color.rgb.split(")");
-        setBgColor(rgba[0] + ",0.07)");
-      })
-      .catch((e) => {
-        console.log(e);
-      });
-  }, [image]);
-
   return (
     <div className="flex flex-col justify-center items-center gap-2">
       <div
