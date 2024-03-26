@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import * as Fa from "react-icons/fa";
 import { LiaLinkedin } from "react-icons/lia";
-import { GiThunderBlade } from "react-icons/gi";
+import { FaGithub } from "react-icons/fa";
 
 const Socials = () => {
   return (
@@ -19,7 +19,7 @@ const Socials = () => {
               rel="noreferrer"
               className="grid place-items-center p-3 hover:animate-bounce rounded-full bg-violet-700 text-white"
             >
-              <GiThunderBlade />
+              <FaGithub />
             </Link>
           </li>
           <li>
