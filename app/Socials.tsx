@@ -12,6 +12,7 @@ const Socials = () => {
     >
       <div className="socials">
         <ul className="flex flex-col gap-2">
+
           <li>
             <Link
               href="https://www.linkedin.com/in/sanjeevkumar-managutti-34187a207/"
