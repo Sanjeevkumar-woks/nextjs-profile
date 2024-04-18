@@ -31,9 +31,8 @@ export default function Footer() {
               width={45}
               height={45}
               src="/nextjs.svg"
-              className={`${
-                theme === "dark" ? "invert" : "invert-0"
-              } opacity-80 hover:opacity-100 transition-opacity`}
+              className={`${theme === "dark" ? "invert" : "invert-0"
+                } opacity-80 hover:opacity-100 transition-opacity`}
             />
           </Link>
           <p className="text-sm text-violet-600">X</p>
@@ -47,9 +46,8 @@ export default function Footer() {
               width={52}
               height={52}
               src="/vercel.svg"
-              className={`${
-                theme === "dark" ? "invert" : "invert-0"
-              } opacity-80 hover:opacity-100 transition-opacity`}
+              className={`${theme === "dark" ? "invert" : "invert-0"
+                } opacity-80 hover:opacity-100 transition-opacity`}
             />
           </Link>
         </div>
