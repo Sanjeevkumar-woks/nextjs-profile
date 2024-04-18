@@ -8,7 +8,7 @@ const Socials = () => {
   return (
     <section
       id="socials"
-      className="fixed xl:bottom-4 xl:left-4 2xl:bottom-10 2xl:left-10 hidden lg:flex sm:flex-row gap-3 z-20"
+      className="fixed xl:bottom-4 xl:left-4 2xl:bottom-10 2xl:left-10 hidden lg:flex sm:flex-row gap-4 z-20"
     >
       <div className="socials">
         <ul className="flex flex-col gap-2">
@@ -19,7 +19,7 @@ const Socials = () => {
               rel="noreferrer"
               className="grid place-items-center p-3 hover:animate-bounce rounded-full bg-violet-700 text-white"
             >
-              <FaGithub />
+              <FaGithub size={30} />
             </Link>
           </li>
           <li>
@@ -29,7 +29,7 @@ const Socials = () => {
               rel="noreferrer"
               className="grid place-items-center p-3 hover:animate-bounce rounded-full bg-violet-700 text-white"
             >
-              <LiaLinkedin />
+              <LiaLinkedin size={30} />
             </Link>
           </li>
         </ul>
