@@ -32,7 +32,6 @@ Next Portfolio is built using Next.js and Tailwind CSS for a modern design and r
 - [Next.js](https://nextjs.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind CSS](https://tailwindcss.com)
-- [Firebase](https://firebase.google.com)
 - [SendGrid](https://sendgrid.com)
 - [Framer Motion](https://www.framer.com/motion)
 
@@ -60,7 +59,7 @@ Next Portfolio is built using Next.js and Tailwind CSS for a modern design and r
 
 Here are the steps to run the portfolio locally.
 
-1. Fork [this](https://github.com/jigar-sable/next-portfolio) repository.
+1. Fork [this](https://github.com/Sanjeevkumar-woks/nextjs-profile) repository.
 
 2. Clone your forked copy of the repo
 
