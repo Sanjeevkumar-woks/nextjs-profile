@@ -36,7 +36,7 @@ const About = () => {
             </p>
             <div className="flex items-center gap-4 md:mt-4">
               <Link
-                href=""
+                href="https://drive.google.com/file/d/1c1wAG843fjbzrcjNsYSdFnI8CmfKiThn/view?usp=sharing"
                 target="_blank"
                 className=" flex items-center justify-center text-sm md:text-base bg-violet-600 dark:bg-violet-700 text-white w-fit rounded-md py-2 px-6 hover:shadow-xl transition-shadow"
               >
